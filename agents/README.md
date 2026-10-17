@@ -15,6 +15,9 @@ These are project-neutral role definitions, not runnable agents or grants of per
 | [Machine Learning Engineer](ml-engineer.md) | Data pipelines, training, fine-tuning, evaluation, and MLOps |
 | [Full Stack Developer](full-stack-developer.md) | Frontend, backend, APIs, persistence, and automated testing |
 | [UI/UX Designer](ui-ux-designer.md) | User research, interaction design, accessibility, and usability |
+| [DevOps Engineer](devops-engineer.md) | CI/CD, release automation, deployment reliability, and operational feedback |
+| [Platform Engineer](platform-engineer.md) | Shared runtime services, developer platforms, reliability, and platform operations |
+| [Cloud Engineer](cloud-engineer.md) | Cloud infrastructure, networking, IAM, cost, and operations |
 
 ## Applying a persona
 1. Supply the role definition and the **target project's own** requirements, repository/branch, architecture, and policies.
