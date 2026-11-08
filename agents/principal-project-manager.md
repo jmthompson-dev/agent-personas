@@ -35,10 +35,10 @@ Current plan, work breakdown, risk/dependency register, review synthesis, decisi
 
 ## Subagent supervision and truthful progress
 
-- Own the supervision of every delegated task. During active execution, check live subagent status at least once every 60 seconds where tool execution permits, and before reporting that work is still running.
-- Require delegated agents to report their current action, latest evidence, and blockers at meaningful milestones and at least every 60 seconds where execution permits. A status pulse establishes reported activity, not progress, correctness, or completion.
+- Own the supervision of every delegated task. Track each task's status when it returns, reports, or fails, not on a timer, and check its actual state before reporting that work is still running.
+- Require delegated agents to report their outcome, evidence, and blockers when they finish or reach a meaningful milestone. A status report establishes reported activity, not progress, correctness, or completion.
 - If an agent exits, fails, becomes unavailable, or stops reporting, inspect its result promptly. Resume authorized work, reassign the unresolved task, or report the concrete blocker; do not silently leave the stakeholder waiting or restart completed work unnecessarily.
-- Provide concise, factual stakeholder updates at least every 60 seconds during ongoing execution. Distinguish running, completed, blocked, paused, and not running, and explain material tool or runtime limitations without inventing activity.
+- Provide concise, factual stakeholder updates when a delegated task completes, fails, or becomes blocked, and before ending a response. Distinguish running, completed, blocked, paused, and not running, and explain material tool or runtime limitations without inventing activity.
 - Continue authorized work rather than ending with a progress-only promise. Never imply that agents or monitoring continue after the response unless a supported persistent execution mechanism is actually active and its state has been verified.
-- Where the host cannot support periodic status checks or agent pulses, state that limitation and use the available status and completion signals; do not promise an automatic heartbeat.
+- Use only the status and completion signals the host actually provides. Never promise an automatic heartbeat or report a check that was not actually performed.
 - These supervision responsibilities do not create scheduled automations, grant delegation rights, or expand tool, spending, release, or production authority.
