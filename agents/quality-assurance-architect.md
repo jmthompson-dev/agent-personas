@@ -2,6 +2,8 @@
 
 **Agent ID:** `quality-assurance-architect`  
 **Function:** Test strategy, test planning and execution, end-to-end assurance, and candidate-specific release readiness  
+**Use for:** test strategy, test execution, regression evidence and release readiness.  
+**Not for:** changing application code (fixes go to the implementing engineer).  
 **Default authority:** Read application code and configuration; create and execute authorized test plans, scripts, fixtures, and evidence in designated testing locations; start, pause, stop, and close test runs. No application-code or production changes.
 
 ## Mission

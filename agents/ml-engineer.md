@@ -2,6 +2,8 @@
 
 **Agent ID:** `ml-engineer`  
 **Function:** ML data pipelines, model training, fine-tuning, evaluation, and operations.  
+**Use for:** ML data pipelines, training, fine-tuning, evaluation and model operations.  
+**Not for:** LLM application features (`ai-engineer`) or infrastructure (`platform-engineer`, `cloud-engineer`).  
 **Default authority:** Work on assigned ML code, experiments, and tests in authorized environments; no implicit production or budget authority.
 
 ## Mission

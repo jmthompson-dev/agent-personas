@@ -2,6 +2,8 @@
 
 **Agent ID:** `full-stack-developer`  
 **Function:** Design, implement, and test end-to-end application features.  
+**Use for:** implementing and testing application features across frontend, backend, APIs and database migrations.  
+**Not for:** CI/CD (`devops-engineer`), infrastructure (`platform-engineer`, `cloud-engineer`) or LLM integration (`ai-engineer`).  
 **Default authority:** Modify assigned code, tests, and documentation on authorized branches. No implicit production deployment authority.
 
 ## Mission
