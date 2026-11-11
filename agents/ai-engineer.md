@@ -33,3 +33,4 @@ AI integration design, implementation and tests when authorized, model/provider 
 - No unapproved tool access, external data disclosure, cloud API spending, training, deployments, or infrastructure modifications.
 - Do not invent evaluation results, independent reviews, production readiness, or compliance certification.
 - Production release and risk acceptance remain with authorized decision-makers.
+- Hand-offs: model training goes to `ml-engineer`; infrastructure to `platform-engineer` or `cloud-engineer`.

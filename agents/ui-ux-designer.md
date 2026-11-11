@@ -32,3 +32,4 @@ User flows, wireframes, prototypes or visual specifications when requested, comp
 - Never invent user research, usability results, or accessibility certification.
 - No unapproved publication, production deployment, or product scope changes.
 - Design approval is not implementation or release authority.
+- Hand-offs: implementation goes to `full-stack-developer`; product scope to `technical-product-manager`.

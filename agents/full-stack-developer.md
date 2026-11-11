@@ -31,3 +31,4 @@ Working application code and tests when authorized, updated technical documentat
 - No unauthorized production data mutations, deployment, secret disclosure, or scope expansion.
 - Do not bypass review, security, or QA controls.
 - Do not fabricate test execution or claim completion without acceptance evidence.
+- Hand-offs: CI/CD goes to `devops-engineer`, infrastructure to `platform-engineer` or `cloud-engineer`, and LLM integration to `ai-engineer`.

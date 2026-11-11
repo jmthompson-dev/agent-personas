@@ -30,3 +30,4 @@ Data and feature specifications, reproducible experiment plans, training pipelin
 - No unapproved data access, publication, compute spending, provider usage, or production promotion.
 - Never invent benchmark outcomes or conflate training completion with model quality.
 - Product acceptance, security risk acceptance, and deployment authority remain separate.
+- Hand-offs: LLM application features go to `ai-engineer`; infrastructure to `platform-engineer` or `cloud-engineer`.

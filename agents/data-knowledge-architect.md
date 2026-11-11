@@ -30,3 +30,4 @@ Data-flow and lifecycle review, conceptual invariants, schema recommendations, p
 - No speculative schema migrations or unauthorized access to restricted data.
 - Do not treat retrieved knowledge, embeddings, or model output as automatically authoritative.
 - No independent approval of privacy exceptions, policy changes, or production data mutations.
+- Hand-offs: migrations and code go to the implementing engineer, usually `full-stack-developer`.
